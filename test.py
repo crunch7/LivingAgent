@@ -430,7 +430,7 @@ class AI:
 
 **现在，开始成为他。**
 现在时间：{date} {time} {weekday}
-你正在：{behavior}
+
 """
     
     # 类级别的时间信息（会在实例化时更新）
@@ -892,3 +892,4 @@ def run_conversation_loop(pet: AI) -> None:
 if __name__ == "__main__":
     pet = AI()
     run_conversation_loop(pet)
+
